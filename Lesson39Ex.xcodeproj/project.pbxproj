@@ -14,6 +14,11 @@
 		E01470EE1A88D12400C48F40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E01470ED1A88D12400C48F40 /* Images.xcassets */; };
 		E01470F11A88D12400C48F40 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E01470EF1A88D12400C48F40 /* LaunchScreen.xib */; };
 		E01470FD1A88D12400C48F40 /* Lesson39ExTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E01470FC1A88D12400C48F40 /* Lesson39ExTests.m */; };
+		E01471091A88D8D400C48F40 /* Football.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E01471071A88D8D400C48F40 /* Football.pdf */; };
+		E014710A1A88D8D400C48F40 /* Tickets.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E01471081A88D8D400C48F40 /* Tickets.pdf */; };
+		E014710D1A88E04800C48F40 /* RJWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E014710C1A88E04800C48F40 /* RJWebViewController.m */; };
+		E014710F1A88F38200C48F40 /* Apple.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E014710E1A88F38200C48F40 /* Apple.pdf */; };
+		E01471111A8904A100C48F40 /* C language.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E01471101A8904A100C48F40 /* C language.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,12 @@
 		E01470F61A88D12400C48F40 /* Lesson39ExTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lesson39ExTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E01470FB1A88D12400C48F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E01470FC1A88D12400C48F40 /* Lesson39ExTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson39ExTests.m; sourceTree = "<group>"; };
+		E01471071A88D8D400C48F40 /* Football.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Football.pdf; sourceTree = "<group>"; };
+		E01471081A88D8D400C48F40 /* Tickets.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Tickets.pdf; sourceTree = "<group>"; };
+		E014710B1A88E04800C48F40 /* RJWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJWebViewController.h; sourceTree = "<group>"; };
+		E014710C1A88E04800C48F40 /* RJWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJWebViewController.m; sourceTree = "<group>"; };
+		E014710E1A88F38200C48F40 /* Apple.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Apple.pdf; sourceTree = "<group>"; };
+		E01471101A8904A100C48F40 /* C language.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "C language.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +96,8 @@
 				E01470E51A88D12400C48F40 /* AppDelegate.m */,
 				E01470E71A88D12400C48F40 /* ViewController.h */,
 				E01470E81A88D12400C48F40 /* ViewController.m */,
+				E014710B1A88E04800C48F40 /* RJWebViewController.h */,
+				E014710C1A88E04800C48F40 /* RJWebViewController.m */,
 				E01470EA1A88D12400C48F40 /* Main.storyboard */,
 				E01470ED1A88D12400C48F40 /* Images.xcassets */,
 				E01470EF1A88D12400C48F40 /* LaunchScreen.xib */,
@@ -96,6 +109,7 @@
 		E01470E01A88D12400C48F40 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E01471061A88D8D400C48F40 /* Pdf files */,
 				E01470E11A88D12400C48F40 /* Info.plist */,
 				E01470E21A88D12400C48F40 /* main.m */,
 			);
@@ -118,6 +132,17 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		E01471061A88D8D400C48F40 /* Pdf files */ = {
+			isa = PBXGroup;
+			children = (
+				E01471101A8904A100C48F40 /* C language.pdf */,
+				E01471071A88D8D400C48F40 /* Football.pdf */,
+				E01471081A88D8D400C48F40 /* Tickets.pdf */,
+				E014710E1A88F38200C48F40 /* Apple.pdf */,
+			);
+			path = "Pdf files";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -200,8 +225,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E01470EC1A88D12400C48F40 /* Main.storyboard in Resources */,
+				E014710A1A88D8D400C48F40 /* Tickets.pdf in Resources */,
 				E01470F11A88D12400C48F40 /* LaunchScreen.xib in Resources */,
+				E014710F1A88F38200C48F40 /* Apple.pdf in Resources */,
 				E01470EE1A88D12400C48F40 /* Images.xcassets in Resources */,
+				E01471111A8904A100C48F40 /* C language.pdf in Resources */,
+				E01471091A88D8D400C48F40 /* Football.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E01470E91A88D12400C48F40 /* ViewController.m in Sources */,
+				E014710D1A88E04800C48F40 /* RJWebViewController.m in Sources */,
 				E01470E61A88D12400C48F40 /* AppDelegate.m in Sources */,
 				E01470E31A88D12400C48F40 /* main.m in Sources */,
 			);
